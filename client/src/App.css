@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+body{
+  height: 100vh;
+  text-align: center;
+  background: url('/Wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+  color: white;
+}
+.vacations-root{
+  position: absolute;
+}
+.vacations-div{
+  width: 100vw;
+  height: 100vh;
+  margin: 70px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  bottom: 0px;
+}
+.vacation-img{
+  width: 100%;
+  height: 40%;
+  border-radius: 3px;
+}
+.likeIcon{
+  display: flex;
+  justify-content: center;
+}
+.admin-icon{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.graph-section{
+  width: 100vw;
+  margin: 0px;
+  height: 70%;
+}
+header{
+  height: 7.5vh;
+}
+.login-div{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  border-radius:15px;
+  padding-top: 0px;
+  background-color: rgb(2, 2, 2, 0.3);
+  align-items: center;
+  justify-content: center;
+}
+.login-child-div{
+  width: 70%;
+  height: 70%;
+  border: 0.3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: rgb(2, 2, 2, 0.1);
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 50%;
+  margin: 50px auto;
+  padding: 15px 10px 25px 10px;
+  border: 0.3px solid black;
+  border-radius: 30px;
+  transition: all 0.1s;
+  align-items: center;
+}
+.login-form:hover{
+  border: 1px solid black;
+}
+.login-form > input{
+  margin: 10px auto;
+  width: 70%;
+  height: 15%;
+  padding: 10px 0px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: 0px;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 70%;
+  height: 80%;
+  text-align: center;
+  justify-content: center;
+}
+.login-btn{
+  border-radius: 15px;
+  border: 0px;
+  background-color: rgb(85, 218, 173);
+  width:100%;
+  height: 80%;
+  margin-top: 10px;
+  padding: 10px;
+  opacity: 0.75;
+  transition: all 0.3s;
+}
+.login-btn:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+.register-div{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  border-radius:15px;
+  padding-top: 0px;
+  background-color: rgb(2, 2, 2, 0.3);
+  
+  justify-content: center;
+}
+.register-child-div{
+  width: 70%;
+  height: 85%;
+  border: 0.3px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(2, 2, 2, 0.1);
+}
+.register-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 65%;
+  margin: 50px auto;
+  padding: 10px;
+  border: 0.3px solid black;
+  border-radius: 30px;
+  transition: all 0.1s;
+}
+.register-form:hover{
+  border: 1px solid black;
+}
+.register-form > input{
+  margin: 10px auto;
+  width: 50%;
+  height: 7%;
+  padding: 10px 0px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: 0px;
+}
+.register-btns{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 50%;
+  text-align: center;
+  justify-content: space-between;
+}
+.existing-account{
+  cursor: pointer;
+}
+.existing-account:hover{
+  text-decoration: underline;
+}
+.register-btn{
+  border-radius: 15px;
+  border: 0px;
+  background-color: rgb(85, 218, 173);
+  width:100%;
+  margin: 10px auto;
+  padding: 10px;
+  opacity: 0.75;
+  transition: all 0.3s;
+}
+.register-btn:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+.edit-form{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 50px auto;
+  padding: 25px;
+  border: 0.1px solid black;
+  border-radius: 5px;
+  transition: all 0.1s;
+  align-items: center;
+}
+.edit-form:hover{
+  border: 1px solid black;
+}
+.edit-form > input{
+  margin: 10px auto;
+  width: 50%;
+  padding: 10px 0px;
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: 0px;
+}
+.page404{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.loginLink404{
+  margin: 10px 0;
+  cursor: pointer;
+}
+.loginLink404:hover{
+  text-decoration: underline;
+}
+.active{
+  opacity: 0.6;
+}
+
