@@ -81,7 +81,7 @@ function EditModal(props) {
 
     return (
         <div>
-            <IconButton onClick={handleOpen} >
+            <IconButton onClick={handleOpen} style={{padding: 0, width: '35px',borderRadius: 0}}>
                 <EditIcon style={{ color: 'white', width: '100%' }} />
             </IconButton>
             <Modal

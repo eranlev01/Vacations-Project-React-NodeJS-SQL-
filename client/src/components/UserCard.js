@@ -16,12 +16,15 @@ const useStyles = makeStyles({
         height: 350,
         backgroundColor: 'rgba(0, 0, 0, 0.65)',
         color: 'white',
-        overflow: 'scroll',
+        overflow: 'auto',
         margin: '60px',
         padding: 0,
         transition: 'all 0.4s',
         "&:hover": {
             backgroundColor: 'rgba(0, 0, 0, 0.75)',
+        },
+        "&::-webkit-scrollbar": {
+            display: 'none'
         }
     },
     card: {
@@ -31,11 +34,12 @@ const useStyles = makeStyles({
         margin: '10px'
     },
     f_icon: {
-        position: 'relative',
-        margin: 'auto',
         color: 'white',
+        borderRadius: 0,
+        width: '100%',
+        margin: 0,
+        paddingLeft: '20px'
     },
-
 });
 
 const UserCard = (props) => {

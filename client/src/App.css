@@ -31,18 +31,22 @@ body{
 }
 .vacation-img{
   width: 100%;
-  height: 40%;
+  height: 60%;
   border-radius: 3px;
 }
 .likeIcon{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 .admin-icon{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .graph-section{
   width: 100vw;

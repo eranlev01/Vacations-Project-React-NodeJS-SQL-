@@ -15,7 +15,7 @@ const useStyles = makeStyles({
         height: 350,
         backgroundColor: 'rgba(0, 0, 0, 0.65)',
         color: 'white',
-        overflow: 'scroll',
+        overflow: 'auto',
         margin: '60px',
         padding: 0,
         transition: 'all 0.4s',
@@ -31,7 +31,7 @@ const useStyles = makeStyles({
     },
     img: {
         width: '100%',
-        height: '150px'
+        height: '170px'
     },
 
 });
@@ -58,7 +58,7 @@ const AdminCard = (props) => {
                             <h3>Dates: {v.from_date} - {v.until_date}</h3>
                             <h4>{v.price}$</h4>
                             <div className="admin-icon">
-                                <EditModal vacation={v} component={Link} style={{ display: 'block', padding: '0', margin: ' 0'}}/>
+                                <EditModal vacation={v} component={Link}/>
                                 <AlertDialog id={v.id}/>
                             </div>
                         </CardContent>
